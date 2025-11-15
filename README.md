@@ -1,16 +1,20 @@
-# aurora_assignment
+# Random Image Viewer
 
-A new Flutter project.
+A simple Flutter app that shows a random image from an API and updates the background color to match the image’s dominant tone.  
+Built with **Clean Architecture** and **BLoC** to keep the code organized and easy to extend.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+### What it does
+- Fetches a random image from the `/image` endpoint
+- Displays it as a centered square with smooth fade-in
+- Background color adapts to the image colors
+- “Another” button loads a new image
+- Handles loading and error states gracefully
+- Works with light and dark themes
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Structure
+The app follows a clean feature-based structure:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
